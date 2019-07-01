@@ -8,7 +8,7 @@ public class ChromeLaunch {
 		System.setProperty("webdriver.chrome.driver",
 				"D:\\Selenium\\Softwares\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		// launch
+		
 		driver.get("http:\\www.facebook.com\\");
 
 		driver.get("http:\\www.greenstechnologys.com\\");
